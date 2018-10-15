@@ -8,14 +8,19 @@ namespace MultiProjectSolnPractice.Tests.CoreProject
     public class ValidatorTest
     {
         [TestMethod]
-        public void IsValidZipCode_USFormat_ReturnsTrue()
+        [DataRow("98499")]
+        [DataRow("98499-")]
+        [DataRow("98499-3412")]
+        public void IsValidZipCode_USFormat_ReturnsTrue(string input)
         {
 
             // Arrange
-            string input = "98499";
+            // string input1 = "98499";
+            // utilizing data row instead of creating multiple methods/variables
 
             // Act
             bool result = Validator.IsValidUSZipCode(input);
+
 
             // Assert
             Assert.IsTrue(result);
