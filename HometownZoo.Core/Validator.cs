@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace HometownZoo.Core
+namespace HometownZoo.Core //.Validation
 {
     /// <summary>
     /// Contains generic validation helper methods
@@ -15,6 +15,7 @@ namespace HometownZoo.Core
         /// <returns></returns>
         public static bool IsValidUSZipCode(string zip)
         {
+            // this matches: 98387, 98387-3475, 98373-
             Regex pattern = new Regex(@"^\d{5}-?\d{4}?$");
             //regex could throw a lot of errors so we use the @ to say we want the literal string
             //-? ? means optional 
