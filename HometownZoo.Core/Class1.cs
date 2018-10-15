@@ -2,7 +2,8 @@
 
 namespace HometownZoo.Core
 {
-    public class Class1
+    public static class Validator
     {
+
     }
 }
