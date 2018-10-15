@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreProject\ValidatorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
@@ -99,6 +100,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HometownZoo.Core\HometownZoo.Core.csproj">
+      <Project>{C17D2406-65BB-4A21-A2AF-6E0C5727E613}</Project>
+      <Name>HometownZoo.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MultiProjectSolnPractice\MultiProjectSolnPractice.csproj">
       <Project>{685EE5C9-1247-406A-BD9B-AB472D7D47C3}</Project>
       <Name>MultiProjectSolnPractice</Name>
