@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace HometownZoo.Core //.Validation
+namespace HometownZoo.Core.Validation
 {
     /// <summary>
     /// Contains generic validation helper methods
