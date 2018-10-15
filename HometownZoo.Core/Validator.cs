@@ -16,9 +16,10 @@ namespace HometownZoo.Core.Validation
         public static bool IsValidUSZipCode(string zip)
         {
             // this matches: 98387, 98387-3475, 98373-
-            Regex pattern = new Regex(@"^\d{5}-?\d{4}?$");
+            Regex pattern = new Regex(@"^\d{5}-?(\d{4})?$");
             //regex could throw a lot of errors so we use the @ to say we want the literal string
             //-? ? means optional 
+            // *Had to add () to make the last 4 digits optional, wasn't working before that
 
             return pattern.IsMatch(zip);
         }
