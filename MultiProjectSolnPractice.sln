@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectSolnPractice", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectSolnPractice.Tests", "MultiProjectSolnPractice.Tests\MultiProjectSolnPractice.Tests.csproj", "{495807CE-BBEC-4805-B044-357137725340}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HometownZoo.Core", "HometownZoo.Core\HometownZoo.Core.csproj", "{C17D2406-65BB-4A21-A2AF-6E0C5727E613}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{495807CE-BBEC-4805-B044-357137725340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495807CE-BBEC-4805-B044-357137725340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495807CE-BBEC-4805-B044-357137725340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17D2406-65BB-4A21-A2AF-6E0C5727E613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17D2406-65BB-4A21-A2AF-6E0C5727E613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17D2406-65BB-4A21-A2AF-6E0C5727E613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17D2406-65BB-4A21-A2AF-6E0C5727E613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
